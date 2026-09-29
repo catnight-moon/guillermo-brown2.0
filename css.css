@@ -1,0 +1,140 @@
+.caja-1{
+    background-color: blue;
+     width: 200px;         /* Ancho del contenido */
+  padding: 20px;        /* 20px de espacio alrededor del texto */
+  border: 5px solid red;/* Borde rojo de 5px de grosor */
+  margin: 30px;         /* 30px de separación con el exterior */
+}
+.caja-2{
+    background-color: aqua;
+     text-align: left;
+  display: block;
+    
+}
+.caja-3{
+    background-color: rgb(74, 0, 248);
+    font-weight: 700;
+}
+body{
+    background-color: rgb(229, 255, 0);
+}
+.caja-4{
+     padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.caja-5{
+     padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.acordeon {
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  color:cadetblue;
+}
+
+details {
+  background: #f4f4f4;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+summary {
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  background: #e9e9e9;
+}
+
+details p {
+  padding: 15px;
+  margin: 0;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+.carrusel2 {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  width: 100%;
+  max-width: 600px;
+  scroll-behavior: smooth;
+}
+
+.carrusel2 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.active{
+  color:blueviolet;
+}
+.img{
+height: 400px;
+width: 400px;
+padding: 50px;
+margin: 50px;
+}
+.arcodeon2 {
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  color:darkcyan;
+}
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  padding-left: 30px;
+  border-left: 3px solid #3498db;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -36.5px;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #3498db;
+  border: 2px solid #fff;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timeline-date {
+  font-size: 0.85rem;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
